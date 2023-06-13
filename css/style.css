@@ -1,0 +1,48 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+
+/**************************************** TAG SELECTORS ****************************************/
+body {
+    text-align: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+img {
+    width: 275px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+
+/**************************************** CLASS SELECTORS ****************************************/
+.qr-card {
+    margin: 150px auto;
+    padding: 15px;
+    width: 275px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    
+}
+
+.attribution {
+    position: fixed;
+    bottom: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    width: 100%;
+}
+
+.attribution a {
+    color: hsl(218, 44%, 22%); 
+}
